@@ -8,7 +8,7 @@ try:
     print("You Entered:", num)
 
 except NegativeNumberError as e:
-    print("Error:", e)
+    print("Error:", e) 
 except ValueError:
     print("Invalid input! Please enter an integer.")
 
