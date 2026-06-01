@@ -4,5 +4,5 @@ try:
     print(content)
 except FileNotFoundError:
     print("Error.File not found")
-finally:
+finally: 
     print("This block always run")
