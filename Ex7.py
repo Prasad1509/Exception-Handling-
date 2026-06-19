@@ -1,7 +1,6 @@
 # Custom exception
 class ResultTooLargeError(Exception):
     pass
-
 def divide_numbers(a, b):
     try:
         result = a / b
