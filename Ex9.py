@@ -6,7 +6,7 @@ class InsufficientFunds(Exception):
 def withdraw_money(balance, amount):
     if amount > balance:
         raise InsufficientFunds("You don't have enough money in your account.")
-    else:
+    else: 
         balance -= amount
         print("Withdrawal successful. Remaining balance:", balance)
 
