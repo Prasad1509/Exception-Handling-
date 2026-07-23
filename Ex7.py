@@ -3,7 +3,7 @@ class ResultTooLargeError(Exception):
     pass
 def divide_numbers(a, b):
     try:
-        result = a / b
+        result = a / b 
         if result > 100:
             raise ResultTooLargeError("The result is too large!")
     except ZeroDivisionError:
