@@ -1,6 +1,6 @@
 try:
     # Outer try block
-    num1 = int(input("Enter a number: "))
+    num1 = int(input("Enter a number: ")) 
     try:
         # Inner try block
         result = 10 / num1
