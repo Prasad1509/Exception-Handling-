@@ -1,6 +1,6 @@
 
 class DailyLimitExceeded(Exception):
-    pass
+    pass                             
 
 # Function to withdraw money with daily limit
 def withdraw_from_atm(amount_today, amount_now):
