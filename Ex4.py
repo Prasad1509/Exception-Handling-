@@ -1,4 +1,4 @@
-class NegativeNumberError(Exception):
+ class NegativeNumberError(Exception):
     pass
 
 try:
