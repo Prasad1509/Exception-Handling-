@@ -1,4 +1,4 @@
-try:
+try                                            
     num=int(input("Enter the number:"))
 except ValueError:
     print("Invalid number!")    
