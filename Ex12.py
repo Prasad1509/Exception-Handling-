@@ -3,7 +3,7 @@ import threading
 def worker(number):
     try:
         print(f"Thread {number} is running.")
-        if number == 3:
+        if number == 3:                                     
             raise ValueError("Oops! Thread 3 encountered an error.")
     except Exception as e:
         print(f"Exception in thread {number}: {e}")
